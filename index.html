@@ -6,34 +6,35 @@
        <title>Survey form</title>   
     </head>
     <body>
-     
-      <fieldset>
-      
-          <h1>Survey Form</h1>
-          <h3>Let us know how we can improve freeCodeCamp</h3>
+          <h1  id="title">Survey Form</h1>
+          <p id="description">Let us know how we can improve 
+          freeCodeCamp</p>
 
+         <form id="description">
+             
+         
           <ul>
 
-              <label>
+              <label id="name-label" for="name">
                   Name:
-                  <input placeholder="Enter your name">
+                  <input placeholder="Enter your name" id="name" required>
               </label>
 
 
-              <label>
+              <label id="email-label" for="email">
                   Email:
-                  <input placeholder="Enter your Email">
+                  <input placeholder="Enter your Email" id="email" required>
               </label>
 
 
-              <label>
+              <label id="number-label">
                   Age:
-                  <input placeholder="Age">
+                  <input placeholder="Age" id="number">
               </label>
           </ul>
 
           <p>Which option best describes your current role?</p>
-              <select placeholder="Select an option">
+              <select id="dropdown" placeholder="Select an option">
                  
                  <option>Student</option>
                  <option>Full time Job</option>
@@ -44,11 +45,11 @@
               </select>
               
           <p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
-          <ul>
-              <input type="radio">Definitely
-              <input type="radio">Maybe
-              <input type="radio">Not sure
-          </ul>
+          
+              <input type="radio" name="attribute">Definitely
+              <input type="radio" name="attribute">Maybe
+              <input type="radio" name="attribute">Not sure
+          
           
           <p>What do you like most in FCC</p>
               <select placeholder="Select an option">
@@ -60,55 +61,55 @@
               </select>
           <p>Things that should be improved in the future(Check all that apply):</p>
           <label>
-              <input type="checkbox">Front-end Projects
+              <input type="checkbox" value="frontend">Front-end Projects
           </label>
           
           <label>
-              <input type="checkbox">Back-end Projects
+              <input type="checkbox" value="backend">Back-end Projects
           </label>
           
           <label>
-              <input type="checkbox">Dara Visualization
+              <input type="checkbox" value="data">Data Visualization
           </label>
           
           <label>
-              <input type="checkbox">Challenges
+              <input type="checkbox" value="challenge">Challenges
           </label>
           
           <label>
-              <input type="checkbox">Open Source Community
+              <input type="checkbox" value="opensource">Open Source Community
           </label>
           
           <label>
-              <input type="checkbox">Gitter help rooms
+              <input type="checkbox" value="gitter">Gitter help rooms
           </label>
           
           <label>
-              <input type="checkbox">Videos
+              <input type="checkbox" value="video">Videos
           </label>
           
           <label>
-              <input type="checkbox">City Meetups
+              <input type="checkbox" value="city">City Meetups
           </label>
           
           <label>
-              <input type="checkbox">Wiki
+              <input type="checkbox" value="wiki">Wiki
           </label>
           
           <label>
-              <input type="checkbox">Forum
+              <input type="checkbox" value="forum">Forum
           </label>
           
           <label>
-              <input type="checkbox">Additional Courses
+              <input type="checkbox" value="additional">Additional Courses
           </label>
             
           
           <p>Any Comments or Suggestions?</p>
           <textarea placeholder="Enter your comment here..."></textarea>
           
-          <button>Submit</button>
-      </fieldset>
+          <button id="submit">Submit</button>
+      </form>
        
         
     </body>
