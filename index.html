@@ -59,7 +59,7 @@
                     </div>
                     
                     <div class="rightTab">
-                        <select id="dropdown" placeholder="Select an option">
+                        <select id="dropdown" placeholder="Select an option" class="dropdown">
                             <option disabled value>Select an option</option>
                             <option value="student">Student</option>
                             <option value="fullTime">Full time Job</option>
@@ -75,8 +75,11 @@
                         <label for="userRating">* How likely is that you would recommend freeCodeCamp to a friend?</label>   
                     </div>
                     
-                    <div class="rightLab">
+                    <div class="rightTab">
                         <ul style="list-style: none">
+                           
+                           <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+                           
                             <li class="radio"><label>Definitely<input type="radio" name="radio-buttons" value="1" class="userRatings"></label></li>
                             <li class="radio"><label>Maybe<input type="radio" name="radio-buttons" value="2" class="userRatings"></label></li>
                             <li class="radio"><label>Not sure<input type="radio" name="radio-buttons" value="3" class="userRatings"></label></li>
