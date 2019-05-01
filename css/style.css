@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     text-align: center;
     color: #000;
-    background-color: azure;
+    background-color:blanchedalmond;
     min-width: 320PX;
     
 }
@@ -80,8 +80,14 @@ input[type="checkbox"] {
     padding-bottom: 10px;
 }
 
+textarea {
+    width: 300px;
+    height: 150px;
+    border: 3px solid blanchedalmond;
+}
+
 #submit {
-    background-color: blueviolet;
+    background-color: #000;
     color: white;
     font-size: 1em;
     height: 40px;
@@ -90,4 +96,31 @@ input[type="checkbox"] {
     border: 0px solid;
     border-radius: 5px;
     
+}
+
+/* mobile version*/
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
 }
