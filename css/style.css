@@ -42,3 +42,52 @@ header #title {
     width: 48%;
     vertical-align: middle;
 }
+
+.input-field {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.age {
+    width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+.dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+.radio, 
+.checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#submit {
+    background-color: blueviolet;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+    border-radius: 5px;
+    
+}
