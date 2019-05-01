@@ -1,9 +1,13 @@
 body {
+    font-family: sans-serif;
+    text-align: center;
     color: #000;
     background-color: azure;
+    min-width: 320PX;
+    
 }
 
-body #title {
+header #title {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -11,11 +15,30 @@ body #title {
 }
 
 #form-description{
-    width: 70%;
+    width: 75%;
     height: auto;
     padding: 10px;
+    padding-top: 20px;
     text-align: center;
     background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
 }
