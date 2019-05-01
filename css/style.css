@@ -1,0 +1,21 @@
+body {
+    color: #000;
+    background-color: azure;
+}
+
+body #title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#form-description{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
